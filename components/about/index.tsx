@@ -37,8 +37,8 @@ export const About = () => {
         <div className="features">
           <h2>O que você vai encontrar na FORLYL?</h2>
           <div className="list">
-            {features.map((feature) => (
-              <FeatureCard feature={feature} />
+            {features.map((feature, index) => (
+              <FeatureCard feature={feature} key={index} />
             ))}
           </div>
         </div>

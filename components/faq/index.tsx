@@ -23,8 +23,8 @@ export const Faq = () => {
       <div className="content-container">
         <h2>Perguntas frequentes</h2>
         <div className="list">
-          {faq.map((question) => (
-            <div>
+          {faq.map((question, index) => (
+            <div key={index}>
               <FaqAccordion question={question} />
             </div>
           ))}
