@@ -1,0 +1,62 @@
+.differences {
+    background-color: var(--color-bg-third);
+    color: var(--color-text-primary);
+
+    .content-container{
+        gap: 32px !important;
+    }
+
+    h2 {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .container {
+        display: flex;
+        height: 100%;
+        gap: 20px;
+
+        .card {
+            display: flex;
+            flex-direction: column;
+            background-color: var(--color-bg-four);
+            padding: 32px;
+            height: 100%;
+            gap: 20px;
+            box-sizing: border-box;
+            border-radius: 20px;
+
+            img {
+                width: 60px;
+                height: 60px;
+            }
+
+            .title {
+                align-items: center;
+                display: flex;
+                gap: 20px;
+                padding-right: 20px;
+            }
+
+            p {
+                color: var(--color-text-four);
+            }
+        }
+
+        .left {
+            flex-grow: 1;
+            max-width: 509px;
+            height: 100%;
+        }
+
+        .right {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            gap: 20px;
+        }
+    }
+}

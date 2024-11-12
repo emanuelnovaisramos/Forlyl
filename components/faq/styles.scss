@@ -1,0 +1,45 @@
+.faq {
+    color: var(--color-text-secondary);
+
+    h2{
+        text-align: center;
+    }
+
+    .content-container {
+        gap: 32px !important;
+    }
+
+    .list {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .card {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        gap: 20px;
+        border-radius: 16px;
+        box-sizing: border-box;
+        padding: 80px 60px;
+        background: rgb(0, 0, 0);
+        background: linear-gradient(295deg, rgba(0, 0, 0, 1) 0%, rgba(0, 34, 153, 1) 0%, rgba(0, 9, 38, 1) 100%);
+
+        h2 {
+            width: 500px;
+            text-align: left;
+            color: var(--color-text-primary);
+        }
+
+        p {
+            width: 255px;
+            color: var(--color-text-four);
+        }
+
+        button {
+            width: 300px;
+        }
+    }
+}

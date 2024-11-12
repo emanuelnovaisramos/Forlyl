@@ -1,0 +1,25 @@
+.accordion {
+    border: none;
+    outline: none;
+    box-shadow: none;
+    border-top: none;
+    .icon{
+        color: var( --color-fifth);
+    }
+    .summary {
+        border-radius: 12px;
+        background-color: var(--color-bg-five);
+        font-size: 24px;
+        font-weight: 600;
+        border: none;
+        outline: none;
+        padding: 13px 28px;
+        box-shadow: none;
+    }
+    .details{
+        outline: none;
+        box-shadow: none;
+        border: none;
+        padding: 20px;
+    }
+}

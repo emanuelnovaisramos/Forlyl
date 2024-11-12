@@ -1,0 +1,25 @@
+.be-first{
+    background-color: var(--color-bg-third);
+    color: var(--color-text-primary);
+    border-top: 2px solid #19223c;
+    .content-container{
+        display: flex;
+        flex-direction: row !important;
+        align-items: center;
+        gap: 20px !important;
+    }
+    p{
+        color: var(--color-text-four);
+    }
+    img{
+        width: 100%;
+        height: auto;
+        object-fit: contain;
+    }
+    .text{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        padding-right: 57px;
+    }
+}
