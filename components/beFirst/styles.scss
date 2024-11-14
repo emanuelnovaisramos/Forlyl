@@ -23,3 +23,38 @@
         padding-right: 57px;
     }
 }
+
+@media(max-width: 1400px){
+    .be-first{
+        .text{
+            padding-right: 0px !important;
+        }
+    }
+}
+
+@media(max-width: 1200px){
+    .be-first{
+        img{
+            width: 500px;
+        }
+    }
+}
+
+@media(max-width: 900px){
+    .be-first{
+        .content-container{
+            flex-direction: column !important;
+        }
+        .text{
+            width: 100%;
+            box-sizing: border-box;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+        img{
+            width: 100%;
+            max-width: 450px;
+        }
+    }
+}

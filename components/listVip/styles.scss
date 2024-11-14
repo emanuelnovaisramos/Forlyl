@@ -33,3 +33,14 @@
         }
     }
 }
+
+@media(max-width: 765px){
+    .vip-list{
+        .content-container{
+            flex-direction: column !important;
+            .texts{
+                text-align: center;
+            }
+        }
+    }
+}

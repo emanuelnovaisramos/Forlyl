@@ -43,3 +43,21 @@
         }
     }
 }
+
+@media(max-width:800px){
+    .faq{
+        .card{
+            padding: 40px;
+            flex-direction: column;
+            h2{
+                width: 100%;
+            }
+            p{
+                width: 100%;
+            }
+            button{
+                width: 100%;
+            }
+        }
+    }
+}

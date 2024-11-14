@@ -1,4 +1,4 @@
-    .feature-card {
+.feature-card {
     display: flex;
     flex-direction: column;
     justify-content: start;
@@ -6,19 +6,30 @@
     text-align: start;
     gap: 20px;
     width: 100%;
+    box-sizing: border-box;
     flex: 1 1 300px;
     min-width: 300px;
     border-radius: 16px;
     padding: 42px;
     position: relative;
     border: 1px solid rgba(#4F4F4F, .15);
-    img{
+
+    img {
         top: -2px;
         padding: 42px 20px;
         border-top: 5px solid var(--color-sixth);
         position: absolute;
     }
-    h3{
+
+    h3 {
         margin-top: 62px;
+    }
+}
+
+@media(max-width: 765px) {
+    .feature-card{
+        flex: 1 1 100%;
+        padding: 32px;
+        min-width: none !important;
     }
 }

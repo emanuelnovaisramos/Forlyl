@@ -60,3 +60,19 @@
         }
     }
 }
+
+@media(max-width: 1000px){
+    .differences{
+        .container{
+            flex-direction: column;
+            .left{
+                max-width: none;
+            }
+            .card{
+                .title{
+                    padding-right: 0px;
+                }
+            }
+        }
+    }
+}
